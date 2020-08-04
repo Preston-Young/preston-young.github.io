@@ -21,10 +21,37 @@
 
 <body class="">
 
+<a id="top"></a>
+
 <!-- Header/Personal Links -->
 <div class="background-color-layer" style="background-image: url('assets/images/img-01.jpg')"
 ></div>
 <main class="content-wrapper">
+
+  <header class="white-text-container section-container">
+    <div class="text-center">
+      <p>
+
+        <a href="#about-me">
+          <button type="button" class="btn btn-info btn-sm">About Me</button>
+        </a>
+
+        <a href="#skills">
+          <button type="button" class="btn btn-info btn-sm">Skills</button>
+        </a>
+
+        <a href="#projects">
+          <button type="button" class="btn btn-info btn-sm">Projects</button>
+        </a>
+
+        <a href="#contact-me">
+          <button type="button" class="btn btn-info btn-sm">Contact Me</button>
+        </a>
+
+      </p>
+    </div>
+  </header>
+
   <header class="white-text-container section-container">
     <div class="text-center">
       <h1>Hi, I'm Preston Young</h1>
@@ -56,6 +83,8 @@
 
 
         <!-- About Me -->
+        <a id="about-me"></a>
+
         <div class="card">
           <div class="card-block">
             <h2>About me</h2>
@@ -74,6 +103,8 @@
 
 
         <!-- Skills -->
+        <a id="skills"></a>
+
         <div class="card">
           <div class="card-block">
             <h2>Skills</h2>
@@ -86,8 +117,8 @@
                   <p>CSS</p>
                   <p>JavaScript</p>
                   <p>React.js</p>
-                  <p>Redux</p>
                   <p>Bootstrap</p>
+                  <p>Redux</p>
                 </div>
               </div>
 
@@ -129,6 +160,8 @@
 
 
         <!-- Projects -->
+        <a id="projects"></a>
+
         <div class="card">
           <div class="card-block">
             <h2>Projects</h2>
@@ -136,7 +169,7 @@
             <div class="row">
               <div class="col-md-4">
                 <img src="./assets/images/botcom.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Botcom (Top 3 Best Use of Twilio API)</h3>
+                <h3 class="h5">Botcom (Hackathon)</h3>
                 <p>Python | Raspberry Pi | Twilio API</p>
                 <p>During HackUCI 2020, I collaborated with a team of 4 to build and develop code for a Raspberry Pi based rover. We programmed Botcom to move forwards, backwards, and make 360 degree turns. I personally integrated Twilio's texting API to text Botcom movement commands, which ended up being an interesting application. Rather than using Twilio's API as a communication function, we wanted to use it as our rover's remote. Our team was recognized as being in the top 3 for best use of Twilio API.</p>
                 <p>
@@ -146,7 +179,7 @@
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/text_editor.JPG" class="img-responsive" alt="">
-                <h3 class="h5">Text Editor</h3>
+                <h3 class="h5">Text Editor (Academic)</h3>
                 <p>C++</p>
                 <p>I developed a text editor that supported commands including but not limited to New Line, Backspace, Undo, and Cursor End. The text editor is fluid and easy to use, and functions exactly as expected of a basic text editor. A rewarding, yet daunting challenge for this project was to maintain all my pointers and memory allocation to ensure zero memory leaks.</p>
                 <p>
@@ -155,7 +188,7 @@
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/stock_strategies.jpeg" class="img-responsive" alt="">
-                <h3 class="h5">Stock Strategies</h3>
+                <h3 class="h5">Stock Strategies (Academic)</h3>
                 <p>Python | IEX Stock API</p>
                 <p>My program analyzed stock data based on a given set of investment strategies; it generated a corresponding chart that indicated buy or sell signals. Leveraging these charts helps investors to increase their gains in the stock market while mitigating investment risk. My program also made it convenient to extract the most relevant stock information as fast as other popular stock websites, but without needing to make an account. I utilized the IEX Stock API in order to retrieve both real-time and historical stock data about the selected company.</p>
                 <a href="https://github.com/Preston-Young/Stock-Strategies" target="_blank">Code</a>
@@ -167,7 +200,7 @@
             <div class="row">
               <div class="col-md-4">
                 <img src="./assets/images/twitter_hello_world_bot.jpeg" class="img-responsive" alt="">
-                <h3 class="h5">@HelloWorld</h3>
+                <h3 class="h5">@HelloWorld (Personal)</h3>
                 <p>Python | Twitter API</p>
                 <p>I created a Twitter bot that replied to any user who tags my devloper account, but only if they used the hashtag #HelloWorld (not case sensitive) in their tweet. I'm running the bot at 
                   <a href="https://www.pythonanywhere.com/" target="_blank">Python Anywhere</a>
@@ -176,7 +209,7 @@
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/blackjack.jpeg" class="img-responsive" alt="">
-                <h3 class="h5">Blackjack</h3>
+                <h3 class="h5">Blackjack (Personal)</h3>
                 <p>Python</p>
                 <p>I built a fully functional text-based version of Blackjack that supports any number of players. I researched and implemented the most common rules, mostly according to  
                   <a href="https://bicyclecards.com/how-to-play/blackjack/" target="_blank">this website</a>
@@ -186,7 +219,7 @@
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/columns.JPG" class="img-responsive" alt="">
-                <h3 class="h5">Columns</h3>
+                <h3 class="h5">Columns (Academic)</h3>
                 <p>Python</p>
                 <p>I recreated the 1980 Sega Genesis game Columns using Pygame. The gameplay for the original game can be found 
                   <a href="https://www.youtube.com/watch?v=pFJvY1k-rpM" target="_blank">here</a>
@@ -200,22 +233,38 @@
 
 
         <!-- Contact Me -->
+        <a id="contact-me"></a>
+
         <div class="card">
           <div class="card-block">
             <h2>Contact Me</h2>
             <div class="row">
 
-              <div class="col-md-6">
+              <div class="col-md-2">
                 <div class="education-experience">
                   <h3 class="h5 date-title">Email</h3>
                   <p>pcyoung@uci.edu</p>
                 </div>   
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-2">
                 <div class="education-experience">
                   <h3 class="h5 date-title">Phone</h3>
                   <p>(310) 528-5436</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="education-experience">
+                  <h3 class="h5 date-title">GitHub</h3>
+                  <p>github.com/Preston-Young</p>
+                </div>   
+              </div>
+
+              <div class="col-md-5">
+                <div class="education-experience">
+                  <h3 class="h5 date-title">LinkedIn</h3>
+                  <p>linkedin.com/in/preston-c-young/</p>
                 </div>
               </div>
 
@@ -275,30 +324,6 @@
             </div>
           </div>
         </div> -->
-        
-        <!-- Language Experience -->
-        <!-- <div class="card">
-          <div class="card-block">
-            <h2>Language</h2>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="language-experience">
-                  <h3 class="h5">English  <small>Bilingual</small></h3>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="language-experience">
-                  <h3 class="h5">French  <small>Fluent</small></h3>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="language-experience">
-                  <h3 class="h5">Russian  <small>Beginner</small></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
 
         <!-- Contact Form -->
         <!-- <div class="card">
@@ -333,9 +358,15 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
+        
+
+        
         <p><img src="./assets/images/mashup-icon.svg" alt=""></p>
         
         <p>©All right reserved. Design <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+        
+        <hr style="color:orange;">
+        
         <p>
           <a class="fa-icon fa-icon-2x" href="https://github.com/Preston-Young" title="" target="_blank">
             <i class="fa fa-github"></i>
@@ -347,6 +378,11 @@
             <i class="fa fa-envelope"></i>
           </a>
         </p>
+
+        <a href="#top">
+          <button class="btn btn-info btn-sm">Back to the top</button>
+        </a>
+
       </div>
     </div>
   </div>
