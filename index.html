@@ -14,18 +14,18 @@
   
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/images/selfie.jpg" />
 
   <title>Preston Young</title>  
 
-<link href="./main.d8e0d294.css" rel="stylesheet"></head>
+  <link href="./main.d8e0d294.css" rel="stylesheet">
+</head>
 
 <body class="">
 
 <a id="top"></a>
 
 <!-- Header/Personal Links -->
-<div class="background-color-layer" style="background-image: url('assets/images/img-01.jpg')"
-></div>
 <main class="content-wrapper">
 
   <!-- Navbar -->
@@ -155,12 +155,13 @@
           <div class="card-block">
             <h2>Projects</h2>
 
+          <div class="projects">
             <div class="row">
 
               <div class="col-md-4">
                 <img src="./assets/images/botcom.jpg" class="img-responsive" alt="">
                 <h3 class="h5">Botcom (Hackathon)</h3>
-                <p>Python | Raspberry Pi | Twilio API</p>
+                <p>Python, Raspberry Pi, Twilio API</p>
                 <p>During HackUCI 2020, I collaborated with a team of 4 to build and develop code for a Raspberry Pi based rover. We programmed Botcom to move forwards, backwards, and make 360 degree turns. I personally integrated Twilio's texting API to text Botcom movement commands, which ended up being an interesting application. Rather than using Twilio's API as a communication function, we wanted to use it as our rover's remote. Our team was recognized as being in the top 3 for best use of Twilio API.</p>
                 <p>
                   <a href="https://devpost.com/software/botcom" target="_blank">Devpost</a> | 
@@ -169,22 +170,27 @@
               </div>
 
               <div class="col-md-4">
-                <img src="./assets/images/robofriends.JPG" class="img-responsive" alt="">
-                <h3 class="h5">Robofriends (Udemy)</h3>
-                <p>React</p>
-                <p>Robofriends is a responsive web app that displays a set of users with their unique robot profile picture and email. With the search bar, users can filter out any profile in real time. Currently, I'm taking a Full Stack Web Devlopement course on Udemy. Following the tutorial and combining my foundational knowledge of HTML, CSS, and JavaScript, I built my first project in React. In the future, I plan to allow for more users and store them using PostgreSQL in order to incorporate a back-end to the project.</p>
-                <a href="https://preston-young.github.io/robofriends/" target="_blank">Check it out</a> | 
-                <a href="https://github.com/Preston-Young/robofriends" target="_blank">Code</a>
+                <img src="./assets/images/friendly_faces.JPG" class="img-responsive" alt="">
+                <h3 class="h5">Friendly Faces (Udemy)</h3>
+                <p>React, Express.js, PostgreSQL, Clarifai API</p>
+                <p>At the end of the Udemy Web Development course, I gathered two other Computer Science students and led them to build my first full stack web app. Friendly Faces utilizes the Clarifai API to detect faces in photos that registered users upload. This was by far my favorite project because it was a culmination of the 40+ hours I spent taking the course. In order to delegate tasks to my team members, I had to learn every aspect of the project, which further solidified my understanding of how front end frameworks interact with the back end server and database.</p>
+                <p>
+                  <a href="https://friendlyfaces.herokuapp.com/" target="_blank">Check It Out</a> | 
+                  <a href="https://github.com/Preston-Young/friendly-faces" target="_blank">Front End</a> |
+                  <a href="https://github.com/Preston-Young/friendly-faces-api" target="_blank">Back End</a>
+                </p>
               </div>
 
               <div class="col-md-4">
                 <img src="./assets/images/twitter_hello_world_bot.jpeg" class="img-responsive" alt="">
                 <h3 class="h5">@HelloWorld (Personal)</h3>
-                <p>Python | Twitter API</p>
+                <p>Python, Twitter API</p>
                 <p>I created a Twitter bot that replies to any user who tags my developer account (@Preston91272477), but only if they used the hashtag #HelloWorld (not case sensitive) in their tweet. I'm running the bot at 
                   <a href="https://www.pythonanywhere.com/" target="_blank">Python Anywhere</a>
-                  , and it checks every 15 seconds for any new tweets. In order to obtain this data, I utilized the Twitter API to parse my user data and determine which tweets to reply to.</p>
-                <a href="https://github.com/Preston-Young/Twitter-Hello-World" target="_blank">Code</a>
+                  , and it checks every 15 seconds for any new tweets. In order to obtain this data, I utilized the Twitter API to parse my user JSON data and determine which tweets to reply to.</p>
+                <p>
+                  <a href="https://github.com/Preston-Young/Twitter-Hello-World" target="_blank">Code</a>
+                </p>
               </div>
               
             </div>
@@ -194,9 +200,11 @@
               <div class="col-md-4">
                 <img src="./assets/images/stock_strategies.jpeg" class="img-responsive" alt="">
                 <h3 class="h5">Stock Strategies (Academic)</h3>
-                <p>Python | IEX Stock API</p>
+                <p>Python, IEX Stock API</p>
                 <p>My program analyzed stock data based on a given set of investment strategies and generated a corresponding chart that indicated buy or sell signals. Stock Strategies made it convenient to extract the most relevant stock information as fast as other popular stock websites, but without needing to make an account. I utilized the IEX Stock API in order to retrieve both real-time and historical stock data about the selected company.</p>
-                <a href="https://github.com/Preston-Young/Stock-Strategies" target="_blank">Code</a>
+                <p>
+                  <a href="https://github.com/Preston-Young/Stock-Strategies" target="_blank">Code</a>
+                </p>
               </div>
 
               <div class="col-md-4">
@@ -217,10 +225,53 @@
                   <a href="https://bicyclecards.com/how-to-play/blackjack/" target="_blank">this website</a>
                   . I designed UML class diagrams to plan out all of the necessary classes and methods. The diagrams also helped to create robust, scalable code that is flexible with different sets of payouts and rules.
                 </p>
-                <a href="https://github.com/Preston-Young/BlackJack" target="_blank">Code</a>
+                <p>
+                  <a href="https://github.com/Preston-Young/BlackJack" target="_blank">Code</a>
+                </p>
               </div>
               
             </div>
+
+            <div class="row">
+
+              <div class="col-md-4">
+                <img src="./assets/images/robofriends.JPG" class="img-responsive" alt="">
+                <h3 class="h5">Robofriends (Udemy)</h3>
+                <p>React</p>
+                <p>Robofriends is a responsive web app that displays a set of users with their unique robot profile picture and email. With the search bar, users can filter out any profile in real time. Currently, I'm taking a Full Stack Web Devlopement course on Udemy. Following the tutorial and combining my foundational knowledge of HTML, CSS, and JavaScript, I built my first project in React. In the future, I plan to allow for more users and store them using PostgreSQL in order to incorporate a back-end to the project.</p>
+                <p>
+                  <a href="https://preston-young.github.io/robofriends/" target="_blank">Check It Out</a> | 
+                  <a href="https://github.com/Preston-Young/robofriends" target="_blank">Code</a>
+                </p>
+              </div>
+
+              <div class="col-md-4">
+                <img src="./assets/images/background_generator.JPG" class="img-responsive" alt="">
+                <h3 class="h5">Background Generator (Udemy)</h3>
+                <p>HTML, CSS, JavaScript</p>
+                <p>This responsive front end web app generates linear gradients that users can copy and use for their backgrounds. Users can choose any two combinations of colors from the two inputs, or click the button to randomly generate a new gradient. I leveraged JavaScript to display the exact values of the linear gradient in real time so users can copy their favorite combinations. This was the first project I did that combined the three most fundamental front end technologies and that utilized JavaScript for DOM manipulation.</p>
+                <p>
+                  <a href="https://preston-young.github.io/background-generator/" target="_blank">Check It Out</a> | 
+                  <a href="https://github.com/Preston-Young/background-generator" target="_blank">Code</a>
+                </p>
+              </div>
+
+              <div class="col-md-4">
+                <img src="./assets/images/columns.JPG" class="img-responsive" alt="">
+                <h3 class="h5">Columns (Academic)</h3>
+                <p>Python</p>
+                <p>I recreated the 1980 Sega Genesis game Columns using Pygame. The gameplay for the original game can be found 
+                  <a href="https://www.youtube.com/watch?v=pFJvY1k-rpM" target="_blank">here</a>
+                  . This was one of the first projects that I did with Python where I needed to create many abstracted, interrelated classes and methods. Initially, I created a working text-based version, where I had to meticulously plan out each function to scale well for the Pygame version.
+                </p>
+                <p>
+                  <a href="https://github.com/Preston-Young/Columns-Game" target="_blank">Code</a>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+
           </div>
 
           <!-- <div class="card-block">
