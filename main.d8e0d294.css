@@ -90,3 +90,7 @@ li{
     color: #ff0060;
     text-decoration: none;
 }
+
+.card {
+    border-radius: 30px;
+}
