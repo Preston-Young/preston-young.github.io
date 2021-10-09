@@ -92,16 +92,12 @@ li{
 
 .main-nav > li > a{
     color: #FFF;
+    font-weight: normal;
     text-decoration: none;
 }
 
 .main-nav > li > a:hover{
     color: #ff0060;
-}
-
-.contact-links {
-    color: black;
-    text-decoration: none;
 }
 
 .contact-links:hover {
@@ -119,5 +115,6 @@ li{
 
 .skills-highlight {
     color: #ff8400;
+    font-weight: bold;
     text-decoration: none;
 }

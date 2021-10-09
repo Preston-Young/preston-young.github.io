@@ -272,6 +272,7 @@ textarea {
 }
 a {
     color: #ff0060;
+    font-weight: bold;
     text-decoration: none;
 }
 a:focus,
